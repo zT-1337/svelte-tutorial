@@ -11,7 +11,7 @@
 <img {src} {alt}>
 <p>This is a paragraph</p>
 <Nested />
-<!-- Achtung vor XSS wenn der Inhalt nicht vetrauenswürdig ist -->
+<!-- Be cautious of XSS attacks if the content of htmlMarkup is not trustworthy -->
 <p>{@html htmlMarkup}</p>
 
 
