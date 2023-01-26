@@ -4,11 +4,11 @@
   //A useEffect that is maybe not cringe
   $: doubled = counter * 2;
   $: {
-    console.log("The value of count is: ", counter)
-    console.log("The value of doubled count is: ", doubled)
+    console.log("The value of count is: ", counter);
+    console.log("The value of doubled count is: ", doubled);
   }
   $: if (counter === 10) {
-    alert("The counter is now at 10")
+    alert("The counter is now at 10");
   }
 
   function incrementCounter() {
